@@ -11,7 +11,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/ToulisDev/MyPasswords">
+  <a href="https://github.com/sachtouris/MyPasswords">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -20,12 +20,12 @@
   <p align="center">
     A Password Manager for Android devices.
     <br />
-    <a href="https://github.com/ToulisDev/MyPasswords"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/sachtouris/MyPasswords"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ToulisDev/MyPasswords/issues">Report Bug</a>
+    <a href="https://github.com/sachtouris/MyPasswords/issues">Report Bug</a>
     ·
-    <a href="https://github.com/ToulisDev/MyPasswords/issues">Request Feature</a>
+    <a href="https://github.com/sachtouris/MyPasswords/issues">Request Feature</a>
   </p>
 </div>
 
@@ -55,7 +55,7 @@
 <!-- ABOUT THE APPLICATION -->
 ## About The Application
 
-It’s an android application which communicates with the <a href="https://github.com/ToulisDev/PasswordManagerRestApi">Password Manager Rest-API</a>. After a successful
+It’s an android application which communicates with the <a href="https://github.com/sachtouris/PasswordManagerRestApi">Password Manager Rest-API</a>. After a successful
 login, the user can create/save passwords(Username,Password,Date-Created,Site) with a corresponding
 logo icon. The logo is downloded locally on the device by using a simple web-crawl algorithm to Google
 Images. Application created using Java and XML on Android Studio.
@@ -70,7 +70,7 @@ Images. Application created using Java and XML on Android Studio.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-In order to get up and running the Application, you need to build the project using Android Studio and have an instance of <a href="https://github.com/ToulisDev/PasswordManagerRestApi">Password Manager Rest-API</a> up and running on a server. You will also have to update `ConnectionHelper.java` with your server url.
+In order to get up and running the Application, you need to build the project using Android Studio and have an instance of <a href="https://github.com/sachtouris/PasswordManagerRestApi">Password Manager Rest-API</a> up and running on a server. You will also have to update `ConnectionHelper.java` with your server url.
 
 ### Prerequisites
 
@@ -83,8 +83,8 @@ In order to get up and running the Application, you need to build the project us
 In order to use the application, you must register an account to the database and login with the account you just created.
 
 <div style="display:flex;">
-  <img src="https://github.com/ToulisDev/MyPasswords/blob/main/images/screenshot-register.png?raw=true" alt="" data-canonical-src="https://github.com/ToulisDev/MyPasswords/blob/main/images/screenshot-register.png?raw=true" width="270" height="540" />
-  <img src="https://github.com/ToulisDev/MyPasswords/blob/main/images/screenshot-login.png?raw=true" alt="" data-canonical-   src="https://github.com/ToulisDev/MyPasswords/blob/main/images/screenshot-login.png?raw=true" width="270" height="540" />
+  <img src="https://github.com/sachtouris/MyPasswords/blob/main/images/screenshot-register.png?raw=true" alt="" data-canonical-src="https://github.com/sachtouris/MyPasswords/blob/main/images/screenshot-register.png?raw=true" width="270" height="540" />
+  <img src="https://github.com/sachtouris/MyPasswords/blob/main/images/screenshot-login.png?raw=true" alt="" data-canonical-   src="https://github.com/sachtouris/MyPasswords/blob/main/images/screenshot-login.png?raw=true" width="270" height="540" />
 </div>
 
 <br/>
@@ -92,9 +92,9 @@ In order to use the application, you must register an account to the database an
 After a successful login, you can create a new password by clicking on **ADD** button and after filling the fields you hit **SAVE**.
 
 <div style="display:flex;">
-  <img src="https://github.com/ToulisDev/MyPasswords/blob/main/images/screenshot-main.png?raw=true" alt="" data-canonical-src="https://github.com/ToulisDev/MyPasswords/blob/main/images/screenshot-main.png?raw=true" width="270" height="540" />
-  <img src="https://github.com/ToulisDev/MyPasswords/blob/main/images/screenshot-add.png?raw=true" alt="" data-canonical-   src="https://github.com/ToulisDev/MyPasswords/blob/main/images/screenshot-add.png?raw=true" width="270" height="540" />
-  <img src="https://github.com/ToulisDev/MyPasswords/blob/main/images/screenshot-netflix.png?raw=true" alt="" data-canonical-   src="https://github.com/ToulisDev/MyPasswords/blob/main/images/screenshot-netflix.png?raw=true" width="270" height="540" />
+  <img src="https://github.com/sachtouris/MyPasswords/blob/main/images/screenshot-main.png?raw=true" alt="" data-canonical-src="https://github.com/sachtouris/MyPasswords/blob/main/images/screenshot-main.png?raw=true" width="270" height="540" />
+  <img src="https://github.com/sachtouris/MyPasswords/blob/main/images/screenshot-add.png?raw=true" alt="" data-canonical-   src="https://github.com/sachtouris/MyPasswords/blob/main/images/screenshot-add.png?raw=true" width="270" height="540" />
+  <img src="https://github.com/sachtouris/MyPasswords/blob/main/images/screenshot-netflix.png?raw=true" alt="" data-canonical-   src="https://github.com/sachtouris/MyPasswords/blob/main/images/screenshot-netflix.png?raw=true" width="270" height="540" />
 </div>
 
 <br/>
@@ -102,9 +102,9 @@ After a successful login, you can create a new password by clicking on **ADD** b
 After saving the password, it should show up on main menu. By clicking the password you created, a pop-up window shows on which you can copy on clipboard the username (CLIPBOARD button), show the password (EYE icon) or edit the password (PENCIL icon). By hitting the edit button you can change or delete the password.
 
 <div style="display:flex;">
-  <img src="https://github.com/ToulisDev/MyPasswords/blob/main/images/screenshot-netflix-main.png?raw=true" alt="" data-canonical-src="https://github.com/ToulisDev/MyPasswords/blob/main/images/screenshot-netflix-main.png?raw=true" width="270" height="540" />
-  <img src="https://github.com/ToulisDev/MyPasswords/blob/main/images/screenshot-editpop.png?raw=true" alt="" data-canonical-   src="https://github.com/ToulisDev/MyPasswords/blob/main/images/screenshot-editpop.png?raw=true" width="270" height="540" />
-  <img src="https://github.com/ToulisDev/MyPasswords/blob/main/images/screenshot-edit.png?raw=true" alt="" data-canonical-   src="https://github.com/ToulisDev/MyPasswords/blob/main/images/screenshot-edit.png?raw=true" width="270" height="540" />
+  <img src="https://github.com/sachtouris/MyPasswords/blob/main/images/screenshot-netflix-main.png?raw=true" alt="" data-canonical-src="https://github.com/sachtouris/MyPasswords/blob/main/images/screenshot-netflix-main.png?raw=true" width="270" height="540" />
+  <img src="https://github.com/sachtouris/MyPasswords/blob/main/images/screenshot-editpop.png?raw=true" alt="" data-canonical-   src="https://github.com/sachtouris/MyPasswords/blob/main/images/screenshot-editpop.png?raw=true" width="270" height="540" />
+  <img src="https://github.com/sachtouris/MyPasswords/blob/main/images/screenshot-edit.png?raw=true" alt="" data-canonical-   src="https://github.com/sachtouris/MyPasswords/blob/main/images/screenshot-edit.png?raw=true" width="270" height="540" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,16 +129,16 @@ Don't forget to give the project a star! Thanks again!
 
 Aggelos S. - aggelos_sachtouris@hotmail.com
 
-Project Link: [https://github.com/ToulisDev/MyPasswords](https://github.com/ToulisDev/MyPasswords)
+Project Link: [https://github.com/sachtouris/MyPasswords](https://github.com/sachtouris/MyPasswords)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[issues-shield]: https://img.shields.io/github/issues/ToulisDev/MyPasswords?style=for-the-badge
-[issues-url]: https://github.com/ToulisDev/MyPasswords/issues
-[license-shield]: https://img.shields.io/github/license/ToulisDev/MyPasswords?style=for-the-badge
-[license-url]: https://github.com/ToulisDev/MyPasswords/blob/main/LICENSE
+[issues-shield]: https://img.shields.io/github/issues/sachtouris/MyPasswords?style=for-the-badge
+[issues-url]: https://github.com/sachtouris/MyPasswords/issues
+[license-shield]: https://img.shields.io/github/license/sachtouris/MyPasswords?style=for-the-badge
+[license-url]: https://github.com/sachtouris/MyPasswords/blob/main/LICENSE
 [product-register]: images/screenshot-register.png
 [product-main]: images/screenshot-main.png
 [product-add]: images/screenshot-add.png
